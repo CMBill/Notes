@@ -3,7 +3,7 @@
 当 $ x \rightarrow 0 $ 时，
 ##### (1)
 
-$$ x \sim \sin{x} \sim \tan{x} \sim \arctan{x} \sim \arcsin{x} \sim \ln{1+x} \sim \mathrm{e}^x -1 $$
+$$ x \sim \sin{x} \sim \tan{x} \sim \arctan{x} \sim \arcsin{x} \sim \ln{(1+x)} \sim \mathrm{e}^x -1 $$
 
 ##### (2)
 $$ (1+x)^\alpha -1 \sim \alpha x，1 - \cos{x} \sim \frac{1}{2}x^2，a^x - 1 \sim x \ln{a} $$
@@ -34,7 +34,7 @@ $$ R_n(x) = \frac{f^{(n+1)}(\theta)}{(n+1)!} (x-a)^{(n+1)}，\theta \in (a, x)$$
 ##### (1)
 $$ \mathrm{e}^x=1+x+\frac{x^2}{2!}+\cdots+\frac{x^n}{n!}+o(x^n) $$
 $$ \sin{x} = x - \frac{x^3}{3!} + \cdots + (-1)^{n-1} \frac{x^{2n-1}}{(2n-1)!} + o(x^{2n-1}) $$
-$$ \cos{x} = 1 - \frac{x^2}{2!} + \cdots + (-1)^n \frac{x^{2n}}{(2n)!} + o(x^[2n]) $$
+$$ \cos{x} = 1 - \frac{x^2}{2!} + \cdots + (-1)^n \frac{x^{2n}}{(2n)!} + o(x^{2n}) $$
 $$ \ln{(1+x)} = x - \frac{x^2}{2} + \cdots + (-1)^{n-1} \frac{x^n}{n} +o(x^n) $$
 $$ (1+x)^\alpha = 1 + \alpha x + \alpha (\alpha - 1) \frac{x^2}{2!} + \cdots + [\alpha (\alpha-1) \cdots (\alpha-n-1)] \frac{x^n}{n!} + o(x^n) $$
 
