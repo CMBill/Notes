@@ -49,3 +49,18 @@ $$ \arctan{x} = x - \frac{x^3}{6} + o(x^3) $$
 |$ (\log_a{x})' = \frac{1}{x} \cdot \frac{1}{\ln{a}} $|$ (\ln{\lvert x\rvert})' = \frac{1}{x} $|$ (sin{x})' = cos{x} $|$ (cos{x})' = -sin{x} $|
 |$ (\tan{x})' = \sec^2{x} = \frac{1}{\cos^2{x}} $|$ (\cot{x})' = -\csc^2{x} = - \frac{1}{\sin^2{x}} $|$ (\sec{x})' = \sec{x} \tan{x} = \frac{\sin{x}}{\cos^2{x}} $|$ (\csc{x})' = -\csc{x} \cot{x} = \frac{\cos{x}}{\sin^2{x}} $|
 |$ (\arcsin{x})' = \frac{1}{\sqrt{1 - x^2}} $|$ (\arccos{x})' = 1 - \frac{1}{\sqrt{1-x^2}} $|$ (\arctan{x})' = \frac{1}{1 + x^2} $|$ (\mathrm{arccot}x)' = - \frac{1}{1 + x^2} $|
+
+## 4 部分基本积分公式
+
+$$ \int \sec^2{x} \mathrm{d} x = \int \frac{1}{\cos^2{x}} \mathrm{d}x = \tan{x}+C $$
+$$ \int \csc^2{x} \mathrm{d} x = \int \frac{1}{\sin^2{x}} \mathrm{d}x = -\cot{x}+C $$
+$$ \int \sec{x} \tan{x} \mathrm{d} x = \int \frac{\sin{x}}{\cos^2{x}} \mathrm{d}x = \sec{x}+C = \frac{1}{\cos{x}}+C $$
+$$ \int \csc{x} \cot{x} \mathrm{d} x = \int \frac{\cos{x}}{\sin^2{x}} \mathrm{d}x = -\csc{x}+C = \frac{1}{\sin{x}}+C $$
+$$ \int \sec{x} \mathrm{d} x = \int \frac{1}{\cos{x}} \mathrm{d} x = \ln{\lvert \sec{x} + \tan{x} \rvert} + C = \ln{\lvert \frac{1+\sin{x}}{\cos{x}} \rvert} + C $$
+$$ \int \csc{x} \mathrm{d} x = \int \frac{1}{\sin{x}} \mathrm{d} x = -\ln{\lvert \csc{x} + \cot{x} \rvert} + C = -\ln{\lvert \frac{1+\cos{x}}{\sin{x}} \rvert} + C $$
+$$ \int \frac{\mathrm{d}x}{a^2+x^2} = \frac{1}{a} \arctan{\frac{x}{a}} +C $$
+$$ \int \frac{\mathrm{d}x}{a^2-x^2} = \frac{1}{2a} \ln{\lvert \frac{a+x}{a-x} \rvert} +C $$
+$$ \int \frac{\mathrm{d}x}{\sqrt{a^2+x^2}} = \arcsin{\frac{x}{a}} +C $$
+$$ \int \frac{\mathrm{d}x}{\sqrt{x^2+a^2}} = \ln{\lvert x + \sqrt{x^2+a^2} \rvert} +C $$
+$$ \int \frac{\mathrm{d}x}{\sqrt{x^2-a^2}} = \ln{\lvert x + \sqrt{x^2-a^2} \rvert} +C $$
+
