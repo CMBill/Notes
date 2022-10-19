@@ -60,7 +60,7 @@ $$ \int \sec{x} \mathrm{d} x = \int \frac{1}{\cos{x}} \mathrm{d} x = \ln{\lvert 
 $$ \int \csc{x} \mathrm{d} x = \int \frac{1}{\sin{x}} \mathrm{d} x = -\ln{\lvert \csc{x} + \cot{x} \rvert} + C = -\ln{\lvert \frac{1+\cos{x}}{\sin{x}} \rvert} + C $$
 $$ \int \frac{\mathrm{d}x}{a^2+x^2} = \frac{1}{a} \arctan{\frac{x}{a}} +C $$
 $$ \int \frac{\mathrm{d}x}{a^2-x^2} = \frac{1}{2a} \ln{\lvert \frac{a+x}{a-x} \rvert} +C $$
-$$ \int \frac{\mathrm{d}x}{\sqrt{a^2+x^2}} = \arcsin{\frac{x}{a}} +C $$
+$$ \int \frac{\mathrm{d}x}{\sqrt{a^2-x^2}} = \arcsin{\frac{x}{a}} +C $$
 $$ \int \frac{\mathrm{d}x}{\sqrt{x^2+a^2}} = \ln{\lvert x + \sqrt{x^2+a^2} \rvert} +C $$
 $$ \int \frac{\mathrm{d}x}{\sqrt{x^2-a^2}} = \ln{\lvert x + \sqrt{x^2-a^2} \rvert} +C $$
 
