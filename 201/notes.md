@@ -1,3 +1,9 @@
+## 0 初等数学基本不等式链
+
+$$ \frac{2ab}{a + b} = \frac{2}{\frac{1}{a} + \frac{1}{b}} \leqslant \sqrt{ab} \leqslant \frac{a + b}{2} \leqslant \sqrt{\frac{a^2 + b^2}{2}} $$
+
+即调和平均数 $\leqslant$ 几何平均数 $\leqslant$ 算数平均数 $\leqslant$ 平方平均数
+
 ## 1 常用等价无穷小
 
 当 $ x \rightarrow 0 $ 时，
