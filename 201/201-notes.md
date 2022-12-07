@@ -58,6 +58,8 @@ $$ \arctan{x} = x - \frac{x^3}{6} + o(x^3) $$
 
 ## 4 部分基本积分公式
 
+$$ \int \sin^2{x} \mathrm{d} x = \frac{1}{2} (x - \sin{x} \cos{x}) +C $$
+$$ \int \cos^2{x} \mathrm{d} x = \frac{1}{2} (x + \sin{x} \cos{x}) +C $$
 $$ \int \sec^2{x} \mathrm{d} x = \int \frac{1}{\cos^2{x}} \mathrm{d}x = \tan{x}+C $$
 $$ \int \csc^2{x} \mathrm{d} x = \int \frac{1}{\sin^2{x}} \mathrm{d}x = -\cot{x}+C $$
 $$ \int \sec{x} \tan{x} \mathrm{d} x = \int \frac{\sin{x}}{\cos^2{x}} \mathrm{d}x = \sec{x}+C = \frac{1}{\cos{x}}+C $$
