@@ -11,7 +11,7 @@ $$ \mathrm{e}^{jx} = \cos{x} + j \sin{x} $$
 $$ \cos{x} = \frac{\mathrm{e}^{jx} + \mathrm{e}^{-jx}}{2} ， \sin{x} = \frac{\mathrm{e}^{jx} - \mathrm{e}^{-jx}}{2j} $$
 
 ## 1 信号
-### 1.1 单位冲击信号
+### 1.1 单位冲激信号
 
 $$ x^{(k)}(t - t_0) = x(t) * \delta^{(k)}(t - t_0) $$
 $$ x(t) \delta(t - t_0) = x(t_0) \delta(t - t_0) $$
