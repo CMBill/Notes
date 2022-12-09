@@ -20,4 +20,11 @@ $$ \int^{+ \infty}_{- \infty} \varphi(t) \delta^{(n)}(t - t_0) = (-1)^n \varphi^
 $$ f(t) \delta'(t - t_0) = f(t_0) \delta'(t - t_0) - f'(t_0) \delta(t - t_0) $$
 $$ \delta^{(n)}(-t) = (-1)^n \delta^{(n)}(t) $$
 
+## 2 卷积
+### 2.1 卷积积分
 
+$$ y(t) = x(t) * h(t) = \int_{-\infty}^{+\infty} x(\tau) h(t - \tau) \mathrm{d}\tau $$
+
+### 2.2 卷积和
+
+$$ y[n] = x[n] * h[n] = \sum_{k = -\infty}^{+\infty} x[k] h[n - k] $$
