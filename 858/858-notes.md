@@ -28,3 +28,9 @@ $$ y(t) = x(t) * h(t) = \int_{-\infty}^{+\infty} x(\tau) h(t - \tau) \mathrm{d}\
 ### 2.2 卷积和
 
 $$ y[n] = x[n] * h[n] = \sum_{k = -\infty}^{+\infty} x[k] h[n - k] $$
+
+## 3 变换
+### 3.1 傅里叶变换
+
+$$ X(j\omega) = \int^{+\infty}_{-\infty} x(t) e^{-j\omega t} \mathrm{d}t = \lvert X(j\omega) \rvert e^{j\varphi(\omega)} $$
+$$ x(t) = \frac{1}{2 \pi} \int_{-\infty}^{+\infty} X(j\omega) e^{j\omega t} \mathrm{d}\omega $$
